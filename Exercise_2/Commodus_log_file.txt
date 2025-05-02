@@ -1,0 +1,77 @@
+Gladiator process started. 36695:
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1298
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 1198
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1197
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1195
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 1095
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1094
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1092
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 992
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 991
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 989
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 889
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 888
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 886
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 786
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 785
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 783
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 683
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 682
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 680
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 580
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 579
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 577
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 477
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 476
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 474
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 374
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 373
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 371
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 271
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 270
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 268
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 168
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 167
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 165
+Facing opponent 1... Taking 100 damage
+Are you not entertained? Remaining health: 65
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 64
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 62
+Facing opponent 1... Taking 100 damage
+The gladiator has fallen... Final health: -38

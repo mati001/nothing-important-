@@ -1,26 +1,2253 @@
-Facing opponent 2... Taking 110 damage
-Are you not entertained? Remaining health: 1390
-Facing opponent 3... Taking 120 damage
-Are you not entertained? Remaining health: 1270
-Facing opponent 4... Taking 130 damage
+Gladiator process started. 36693:
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1499
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1497
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1496
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1495
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1493
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1492
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1491
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1489
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1488
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1487
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1485
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1484
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1483
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1481
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1480
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1479
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1477
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1476
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1475
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1473
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1472
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1471
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1469
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1468
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1467
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1465
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1464
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1463
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1461
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1460
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1459
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1457
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1456
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1455
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1453
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1452
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1451
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1449
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1448
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1447
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1445
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1444
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1443
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1441
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1440
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1439
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1437
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1436
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1435
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1433
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1432
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1431
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1429
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1428
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1427
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1425
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1424
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1423
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1421
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1420
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1419
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1417
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1416
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1415
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1413
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1412
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1411
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1409
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1408
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1407
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1405
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1404
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1403
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1401
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1400
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1399
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1397
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1396
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1395
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1393
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1392
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1391
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1389
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1388
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1387
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1385
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1384
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1383
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1381
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1380
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1379
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1377
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1376
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1375
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1373
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1372
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1371
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1369
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1368
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1367
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1365
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1364
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1363
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1361
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1360
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1359
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1357
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1356
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1355
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1353
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1352
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1351
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1349
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1348
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1347
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1345
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1344
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1343
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1341
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1340
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1339
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1337
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1336
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1335
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1333
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1332
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1331
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1329
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1328
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1327
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1325
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1324
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1323
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1321
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1320
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1319
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1317
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1316
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1315
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1313
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1312
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1311
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1309
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1308
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1307
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1305
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1304
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1303
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1301
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1300
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1299
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1297
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1296
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1295
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1293
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1292
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1291
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1289
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1288
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1287
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1285
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1284
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1283
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1281
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1280
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1279
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1277
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1276
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1275
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1273
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1272
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1271
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1269
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1268
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1267
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1265
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1264
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1263
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1261
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1260
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1259
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1257
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1256
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1255
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1253
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1252
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1251
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1249
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1248
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1247
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1245
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1244
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1243
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1241
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1240
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1239
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1237
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1236
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1235
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1233
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1232
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1231
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1229
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1228
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1227
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1225
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1224
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1223
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1221
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1220
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1219
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1217
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1216
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1215
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1213
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1212
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1211
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1209
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1208
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1207
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1205
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1204
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1203
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1201
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1200
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1199
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1197
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1196
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1195
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1193
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1192
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1191
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1189
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1188
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1187
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1185
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1184
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1183
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1181
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1180
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1179
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1177
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1176
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1175
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1173
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1172
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1171
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1169
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1168
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1167
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1165
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1164
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1163
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1161
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1160
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1159
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1157
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1156
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1155
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1153
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1152
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1151
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1149
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1148
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1147
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1145
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1144
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1143
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1141
+Facing opponent 4... Taking 1 damage
 Are you not entertained? Remaining health: 1140
-Facing opponent 2... Taking 110 damage
-Are you not entertained? Remaining health: 1030
-Facing opponent 3... Taking 120 damage
-Are you not entertained? Remaining health: 910
-Facing opponent 4... Taking 130 damage
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1139
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1137
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1136
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1135
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1133
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1132
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1131
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1129
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1128
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1127
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1125
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1124
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1123
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1121
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1120
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1119
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1117
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1116
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1115
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1113
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1112
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1111
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1109
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1108
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1107
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1105
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1104
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1103
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1101
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1100
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1099
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1097
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1096
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1095
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1093
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1092
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1091
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1089
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1088
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1087
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1085
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1084
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1083
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1081
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1080
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1079
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1077
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1076
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1075
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1073
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1072
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1071
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1069
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1068
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1067
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1065
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1064
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1063
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1061
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1060
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1059
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1057
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1056
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1055
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1053
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1052
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1051
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1049
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1048
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1047
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1045
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1044
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1043
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1041
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1040
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1039
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1037
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1036
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1035
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1033
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1032
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1031
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1029
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1028
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1027
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1025
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1024
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1023
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1021
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1020
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1019
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1017
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1016
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1015
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1013
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1012
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1011
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1009
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1008
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1007
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1005
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1004
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 1003
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1001
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 1000
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 999
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 997
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 996
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 995
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 993
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 992
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 991
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 989
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 988
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 987
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 985
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 984
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 983
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 981
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 980
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 979
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 977
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 976
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 975
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 973
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 972
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 971
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 969
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 968
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 967
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 965
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 964
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 963
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 961
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 960
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 959
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 957
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 956
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 955
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 953
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 952
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 951
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 949
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 948
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 947
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 945
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 944
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 943
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 941
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 940
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 939
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 937
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 936
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 935
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 933
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 932
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 931
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 929
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 928
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 927
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 925
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 924
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 923
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 921
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 920
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 919
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 917
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 916
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 915
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 913
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 912
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 911
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 909
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 908
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 907
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 905
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 904
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 903
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 901
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 900
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 899
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 897
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 896
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 895
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 893
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 892
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 891
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 889
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 888
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 887
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 885
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 884
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 883
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 881
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 880
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 879
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 877
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 876
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 875
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 873
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 872
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 871
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 869
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 868
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 867
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 865
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 864
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 863
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 861
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 860
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 859
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 857
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 856
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 855
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 853
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 852
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 851
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 849
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 848
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 847
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 845
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 844
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 843
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 841
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 840
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 839
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 837
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 836
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 835
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 833
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 832
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 831
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 829
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 828
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 827
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 825
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 824
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 823
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 821
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 820
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 819
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 817
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 816
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 815
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 813
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 812
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 811
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 809
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 808
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 807
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 805
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 804
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 803
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 801
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 800
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 799
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 797
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 796
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 795
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 793
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 792
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 791
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 789
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 788
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 787
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 785
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 784
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 783
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 781
+Facing opponent 4... Taking 1 damage
 Are you not entertained? Remaining health: 780
-Facing opponent 2... Taking 110 damage
-Are you not entertained? Remaining health: 670
-Facing opponent 3... Taking 120 damage
-Are you not entertained? Remaining health: 550
-Facing opponent 4... Taking 130 damage
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 779
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 777
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 776
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 775
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 773
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 772
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 771
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 769
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 768
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 767
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 765
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 764
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 763
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 761
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 760
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 759
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 757
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 756
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 755
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 753
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 752
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 751
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 749
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 748
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 747
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 745
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 744
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 743
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 741
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 740
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 739
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 737
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 736
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 735
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 733
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 732
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 731
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 729
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 728
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 727
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 725
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 724
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 723
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 721
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 720
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 719
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 717
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 716
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 715
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 713
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 712
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 711
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 709
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 708
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 707
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 705
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 704
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 703
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 701
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 700
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 699
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 697
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 696
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 695
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 693
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 692
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 691
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 689
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 688
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 687
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 685
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 684
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 683
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 681
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 680
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 679
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 677
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 676
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 675
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 673
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 672
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 671
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 669
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 668
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 667
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 665
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 664
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 663
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 661
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 660
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 659
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 657
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 656
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 655
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 653
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 652
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 651
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 649
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 648
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 647
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 645
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 644
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 643
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 641
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 640
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 639
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 637
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 636
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 635
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 633
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 632
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 631
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 629
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 628
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 627
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 625
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 624
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 623
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 621
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 620
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 619
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 617
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 616
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 615
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 613
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 612
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 611
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 609
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 608
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 607
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 605
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 604
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 603
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 601
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 600
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 599
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 597
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 596
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 595
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 593
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 592
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 591
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 589
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 588
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 587
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 585
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 584
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 583
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 581
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 580
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 579
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 577
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 576
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 575
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 573
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 572
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 571
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 569
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 568
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 567
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 565
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 564
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 563
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 561
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 560
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 559
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 557
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 556
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 555
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 553
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 552
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 551
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 549
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 548
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 547
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 545
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 544
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 543
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 541
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 540
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 539
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 537
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 536
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 535
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 533
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 532
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 531
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 529
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 528
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 527
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 525
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 524
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 523
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 521
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 520
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 519
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 517
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 516
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 515
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 513
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 512
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 511
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 509
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 508
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 507
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 505
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 504
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 503
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 501
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 500
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 499
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 497
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 496
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 495
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 493
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 492
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 491
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 489
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 488
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 487
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 485
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 484
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 483
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 481
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 480
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 479
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 477
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 476
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 475
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 473
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 472
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 471
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 469
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 468
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 467
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 465
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 464
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 463
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 461
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 460
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 459
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 457
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 456
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 455
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 453
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 452
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 451
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 449
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 448
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 447
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 445
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 444
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 443
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 441
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 440
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 439
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 437
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 436
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 435
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 433
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 432
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 431
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 429
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 428
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 427
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 425
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 424
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 423
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 421
+Facing opponent 4... Taking 1 damage
 Are you not entertained? Remaining health: 420
-Facing opponent 2... Taking 110 damage
-Are you not entertained? Remaining health: 310
-Facing opponent 3... Taking 120 damage
-Are you not entertained? Remaining health: 190
-Facing opponent 4... Taking 130 damage
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 419
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 417
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 416
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 415
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 413
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 412
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 411
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 409
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 408
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 407
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 405
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 404
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 403
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 401
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 400
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 399
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 397
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 396
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 395
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 393
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 392
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 391
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 389
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 388
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 387
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 385
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 384
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 383
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 381
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 380
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 379
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 377
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 376
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 375
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 373
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 372
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 371
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 369
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 368
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 367
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 365
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 364
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 363
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 361
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 360
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 359
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 357
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 356
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 355
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 353
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 352
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 351
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 349
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 348
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 347
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 345
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 344
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 343
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 341
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 340
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 339
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 337
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 336
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 335
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 333
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 332
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 331
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 329
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 328
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 327
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 325
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 324
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 323
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 321
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 320
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 319
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 317
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 316
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 315
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 313
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 312
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 311
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 309
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 308
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 307
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 305
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 304
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 303
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 301
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 300
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 299
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 297
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 296
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 295
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 293
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 292
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 291
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 289
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 288
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 287
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 285
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 284
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 283
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 281
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 280
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 279
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 277
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 276
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 275
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 273
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 272
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 271
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 269
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 268
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 267
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 265
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 264
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 263
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 261
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 260
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 259
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 257
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 256
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 255
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 253
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 252
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 251
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 249
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 248
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 247
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 245
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 244
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 243
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 241
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 240
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 239
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 237
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 236
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 235
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 233
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 232
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 231
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 229
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 228
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 227
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 225
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 224
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 223
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 221
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 220
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 219
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 217
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 216
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 215
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 213
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 212
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 211
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 209
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 208
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 207
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 205
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 204
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 203
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 201
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 200
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 199
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 197
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 196
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 195
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 193
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 192
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 191
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 189
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 188
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 187
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 185
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 184
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 183
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 181
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 180
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 179
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 177
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 176
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 175
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 173
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 172
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 171
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 169
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 168
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 167
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 165
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 164
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 163
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 161
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 160
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 159
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 157
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 156
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 155
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 153
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 152
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 151
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 149
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 148
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 147
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 145
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 144
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 143
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 141
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 140
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 139
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 137
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 136
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 135
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 133
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 132
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 131
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 129
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 128
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 127
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 125
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 124
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 123
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 121
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 120
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 119
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 117
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 116
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 115
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 113
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 112
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 111
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 109
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 108
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 107
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 105
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 104
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 103
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 101
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 100
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 99
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 97
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 96
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 95
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 93
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 92
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 91
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 89
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 88
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 87
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 85
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 84
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 83
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 81
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 80
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 79
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 77
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 76
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 75
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 73
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 72
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 71
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 69
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 68
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 67
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 65
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 64
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 63
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 61
+Facing opponent 4... Taking 1 damage
 Are you not entertained? Remaining health: 60
-Facing opponent 2... Taking 110 damage
-The gladiator has fallen... Final health: -50
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 59
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 57
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 56
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 55
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 53
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 52
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 51
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 49
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 48
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 47
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 45
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 44
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 43
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 41
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 40
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 39
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 37
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 36
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 35
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 33
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 32
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 31
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 29
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 28
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 27
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 25
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 24
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 23
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 21
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 20
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 19
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 17
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 16
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 15
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 13
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 12
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 11
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 9
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 8
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 7
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 5
+Facing opponent 4... Taking 1 damage
+Are you not entertained? Remaining health: 4
+Facing opponent 3... Taking 1 damage
+Are you not entertained? Remaining health: 3
+Facing opponent 2... Taking 2 damage
+Are you not entertained? Remaining health: 1
+Facing opponent 4... Taking 1 damage
+The gladiator has fallen... Final health: 0
+Facing opponent 3... Taking 1 damage
+The gladiator has fallen... Final health: -1

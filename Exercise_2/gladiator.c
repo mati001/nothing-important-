@@ -67,7 +67,7 @@ void fight(int glad, int opponents[], FILE *logFile)
     // Simulate fighting logic here
     int health = get_health(glad);
     // printf("Gladiator %d has %d health\n", glad, health);
-    while (health >= 0)
+    while (health > 0)
     {
         for (int i = 0; i < 3; i++)
         {
@@ -101,7 +101,7 @@ int main(int argc, char *argv[])
     initiliaze_opponents(opponents, gladiator_index);
     // Simulate fighting logic here
     char filename[30];
-    sprintf(filename, "%s_log_file.txt", gladiator_name);
+    sprintf(filename, "G%d_log.txt", gladiator_index); // Format the string
     FILE *logFile = fopen(filename, "w"); // Open the log file for writing and create it
     fprintf(logFile, "Gladiator process started. %d:\n", getpid());
     fight(gladiator_index, opponents, logFile);

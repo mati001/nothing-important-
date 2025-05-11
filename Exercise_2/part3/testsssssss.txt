@@ -1,0 +1,2 @@
+absulate path and relative paths
+check if its copying 

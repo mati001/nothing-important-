@@ -9,7 +9,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include <stdbool.h>
-#define MAX_LINE_LENGTH 256
+#define MAX_LINE_LENGTH 10000
 
 FILE *open_file(char *filename, char *flag)
 {
@@ -119,5 +119,6 @@ int main(int argc, char *argv[])
         return 1;
     }
     main_loop(argv[1], argv[2]);
+    
     return 0;
 }

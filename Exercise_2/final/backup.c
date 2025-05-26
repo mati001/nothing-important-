@@ -139,7 +139,12 @@ void copy_symlink(const char *src, const char *dst)
 void copy_directory(const char *src, const char *dst)
 {
     struct stat st;
-    if (mkdir(dst, 0755) == -1)
+    if (stat(src, &st) == -1)
+    {
+        perror("stat failed");
+        return;
+    }
+    if (mkdir(dst, st.st_mode & 0777) == -1)
     {
         perror("mkdir");
         exit(1);

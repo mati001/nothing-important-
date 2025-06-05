@@ -12,7 +12,6 @@
 #define MAX_DESCRIPTION_LENGTH 100
 #define MAX_LINE_LENGTH 256
 void Idle(int start, int end);
-
 typedef struct
 {
     char name[MAX_NAME_LENGTH];
@@ -32,7 +31,41 @@ typedef struct
     int rear;
     int size;
 } queue;
+float calculateAverageWaitingTime(Process process[], int processCount, int start)
+{
+    float totalWaitingTime = 0;
+    for (int i = 0; i < processCount; i++)
+    {
+        if (process[i].endTime != -1) // Ensure the process has completed
+        {
+            int waitingTime = process[i].endTime - process[i].arrivalTime - process[i].burstTime;
+            totalWaitingTime += waitingTime;
+        }
+        else
+        {
+            fprintf(stderr, "Process %d has not completed yet (endTime = -1)\n", i);
+            return -1; // Return -1 to indicate an error if any process has not completed
+        }
+    }
+    return totalWaitingTime / processCount; // Return the average waiting time
+}
 
+void printSchedulerHeader(const char *mode)
+{
+    printf("══════════════════════════════════════════════\n");
+    printf(">> Scheduler Mode : %s\n", mode);
+    printf(">> Engine Status  : Initialized\n");
+    printf("──────────────────────────────────────────────\n");
+}
+void printSchedulerSummary(float avgWaitingTime)
+{
+    printf("──────────────────────────────────────────────\n");
+    printf(">> Engine Status  : Completed\n");
+    printf(">> Summary        :\n");
+    printf("   └─ Average Waiting Time : %.2f time units\n", avgWaitingTime);
+    printf(">> End of Report\n");
+    printf("══════════════════════════════════════════════\n");
+}
 queue *createQueue()
 {
     queue *q = (queue *)malloc(sizeof(queue));
@@ -116,8 +149,8 @@ void runProcess(Process *p, int currentTime)
     alarm(p->burstTime);
 
     // Simulate process execution
-    p->startTime = currentTime; // Set the start time of the process
-    pause(); // Wait for a signal to be received
+    p->startTime = currentTime;              // Set the start time of the process
+    pause();                                 // Wait for a signal to be received
     p->endTime = currentTime + p->burstTime; // Set the end time of the process
     printProcess(p);
 }
@@ -223,11 +256,7 @@ void rrScheduler(Process process[], int processCount, int timeQuantum)
 
 void fcfsScheduler(Process process[], int processCount)
 {
-    /*
-    need to keep track of     Average Waiting Time : 2.00 time units
-    */
-    int start_time = time(NULL); // Get the start time of the program
-
+    printSchedulerHeader("FCFS");
     queue *readyQueue = createQueue();
     sortbyArrivalTime(process, processCount); // Sort processes by arrival time before scheduling
     int currentTime = 0;                      // Initialize current time to 0
@@ -256,11 +285,13 @@ void fcfsScheduler(Process process[], int processCount)
         }
         else // schoudler pov
         {
-            wait(NULL);                          // Wait for the child process to finish
+            wait(NULL); // Wait for the child process to finish
             process[i].endTime = currentTime + process[i].burstTime;
             currentTime += process[i].burstTime; // Update current time after the process finishes
         }
     }
+    float avg = calculateAverageWaitingTime(process, processCount, 0);
+    printSchedulerSummary(avg);
 }
 void sjfScheduler(Process process[], int processCount)
 {
@@ -320,9 +351,7 @@ void printProcesses(Process *processes, int processCount)
 }
 int main()
 {
-    Process processes[MAX_PROCESSES];
-    int processCount = 0;
     char processesCsvFilePath[] = "processes1.csv"; // Path to the CSV file containing process information
-    initliazeAllProcesses(processes, &processCount, processesCsvFilePath);
-    fcfsScheduler(processes, processCount);
+    int timeQuantum = 2;                            // Time quantum for the Round Robin scheduler
+    runCPUScheduler(processesCsvFilePath, timeQuantum);
 }

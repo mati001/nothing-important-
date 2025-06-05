@@ -5,7 +5,6 @@
 #include "CPU-Scheduler.c"
 
 
-sigset_t blockSet;
 
 int main(int argc, char *argv[]) {
     if (argc != 4) {
@@ -20,15 +19,20 @@ int main(int argc, char *argv[]) {
         exit(0);
     }
 
-    if (strcmp(argv[1], "Focus-Mode") == 0) {
+    else if (strcmp(argv[1], "Focus-Mode") == 0) {
         int numOfRounds = atoi(argv[2]);
         int roundDuration = atoi(argv[3]);
         runFocusMode(numOfRounds, roundDuration);
     }
 
-    if (strcmp(argv[1], "CPU-Scheduler") == 0) {
+    else if (strcmp(argv[1], "CPU-Scheduler") == 0) {
         char *processesCsvFilePath = argv[2];
         int timeQuantum = atoi(argv[3]);
         runCPUScheduler(processesCsvFilePath, timeQuantum);
     }
+    else {
+        printf("Invalid mode. Use 'Focus-Mode' or 'CPU-Scheduler'.\n");
+        exit(0);
+    }
+    return 0;
 }

@@ -24,7 +24,8 @@ typedef struct
     int priority;    // lower number means higher priority
     int endTime;     // in seconds
     int startTime;   // in seconds
-    __pid_t pid;     // Process ID
+    int place;
+    __pid_t pid; // Process ID
 } Process;
 
 typedef struct
@@ -108,45 +109,94 @@ Process removeMin(MinHeap *heap)
     heapifyDown(heap, 0);
     return min;
 }
+int compareByArrivalTime(const Process *a, const Process *b)
+{
+    if (a->arrivalTime == b->arrivalTime)
+    {
+        return a->place - b->place; // If arrival times are equal, sort by place
+    }
+    return a->arrivalTime - b->arrivalTime;
+}
 int compareByPriority(const Process *a, const Process *b)
 {
+    if (a->priority == b->priority)
+    {
+        return compareByArrivalTime(a, b); // If priorities are equal, sort by arrival time
+    }
     return a->priority - b->priority;
 }
 
 int compareByBurstTime(const Process *a, const Process *b)
 {
+    if (a->burstTime == b->burstTime)
+    {
+        return compareByArrivalTime(a, b); // If burst times are equal, sort by arrival time
+    }
     return a->burstTime - b->burstTime;
-}
-int compareByArrivalTime(const Process *a, const Process *b)
-{
-    return a->arrivalTime - b->arrivalTime;
 }
 void printSchedulerHeader(const char *mode)
 {
-    printf("══════════════════════════════════════════════\n");
-    printf(">> Scheduler Mode : %s\n", mode);
-    printf(">> Engine Status  : Initialized\n");
-    printf("──────────────────────────────────────────────\n\n");
+    char buffer[128];
+    int len;
+
+    const char *topLine = "══════════════════════════════════════════════\n";
+    const char *statusLine = ">> Engine Status  : Initialized\n";
+    const char *bottomLine = "──────────────────────────────────────────────\n\n";
+
+    write(1, topLine, strlen(topLine));
+
+    len = snprintf(buffer, sizeof(buffer), ">> Scheduler Mode : %s\n", mode);
+    write(1, buffer, len);
+
+    write(1, statusLine, strlen(statusLine));
+    write(1, bottomLine, strlen(bottomLine));
 }
 void printSchedulerSummaryRR(int turnAroundTime)
 {
-    printf("\n");
-    printf("──────────────────────────────────────────────\n");
-    printf(">> Engine Status  : Completed\n");
-    printf(">> Summary        :\n");
-    printf("   └─ Total Turnaround Time : %d time units\n\n", turnAroundTime);
-    printf(">> End of Report\n");
-    printf("══════════════════════════════════════════════\n\n");
+    char buffer[128];
+    int len;
+
+    const char *lineBreak = "\n";
+    const char *separatorTop = "──────────────────────────────────────────────\n";
+    const char *statusLine = ">> Engine Status  : Completed\n";
+    const char *summaryHeader = ">> Summary        :\n";
+    const char *reportEnd = ">> End of Report\n";
+    const char *separatorBottom = "══════════════════════════════════════════════\n";
+
+    write(1, lineBreak, strlen(lineBreak));
+    write(1, separatorTop, strlen(separatorTop));
+    write(1, statusLine, strlen(statusLine));
+    write(1, summaryHeader, strlen(summaryHeader));
+
+    len = snprintf(buffer, sizeof(buffer), "   └─ Total Turnaround Time : %d time units\n\n", turnAroundTime);
+    write(1, buffer, len);
+    write(1, reportEnd, strlen(reportEnd));
+    write(1, separatorBottom, strlen(separatorBottom));
 }
 void printSchedulerSummary(float avgWaitingTime)
 {
-    printf("\n");
-    printf("──────────────────────────────────────────────\n");
-    printf(">> Engine Status  : Completed\n");
-    printf(">> Summary        :\n");
-    printf("   └─ Average Waiting Time : %.2f time units\n", avgWaitingTime);
-    printf(">> End of Report\n");
-    printf("══════════════════════════════════════════════\n\n");
+     char buffer[128];
+    int len;
+
+    const char *lineBreak       = "\n";
+    const char *separatorTop    = "──────────────────────────────────────────────\n";
+    const char *statusLine      = ">> Engine Status  : Completed\n";
+    const char *summaryHeader   = ">> Summary        :\n";
+    const char *reportEnd       = ">> End of Report\n";
+    const char *separatorBottom = "══════════════════════════════════════════════\n\n";
+
+    write(1, lineBreak, strlen(lineBreak));
+    write(1, separatorTop, strlen(separatorTop));
+    write(1, statusLine, strlen(statusLine));
+    write(1, summaryHeader, strlen(summaryHeader));
+
+    len = snprintf(buffer, sizeof(buffer),
+                   "   └─ Average Waiting Time : %.2f time units\n",
+                   avgWaitingTime);
+    write(1, buffer, len);
+
+    write(1, reportEnd, strlen(reportEnd));
+    write(1, separatorBottom, strlen(separatorBottom));
 }
 queue *createQueue()
 {
@@ -181,6 +231,7 @@ Process dequeue(queue *q)
 void sortbyArrivalTime(Process *process, int processCount)
 {
     // Simple bubble sort to sort processes by arrival time
+    // it stable
     for (int i = 0; i < processCount - 1; i++)
     {
         for (int j = 0; j < processCount - i - 1; j++)
@@ -217,8 +268,9 @@ void runProcess(Process *p, int currentTime, int timeQuantum)
     p->endTime = currentTime + timeQuantum; // Set the end time of the process
     printProcess(p);
 }
-void processLine(char *line, Process *process)
+void processLine(char *line, Process *process, int counter)
 {
+    process->place = counter; // Set the place of the process
     char *token = strtok(line, ",");
     if (token != NULL)
     {
@@ -284,7 +336,7 @@ void initliazeAllProcesses(Process *processes, int *count, char *processesCsvFil
             perror("strdup failed");
             exit(EXIT_FAILURE);
         }
-        processLine(lineCopy, &processes[processCount]);
+        processLine(lineCopy, &processes[processCount], processCount);
         free(lineCopy); // Free the copy after processing
         processCount++;
     } while (processCount < MAX_PROCESSES);
@@ -299,7 +351,6 @@ void checkForProcessArrival(Process process[], int processCount, int *currentPro
     while (*currentProcessIndex < processCount && process[*currentProcessIndex].arrivalTime <= currentTime)
     {
         enqueue(q, process[*currentProcessIndex]);
-        // printf("\nProcess %s entered the RR!\n", process[*currentProcessIndex].name);
         (*currentProcessIndex)++;
     }
 }
@@ -347,7 +398,7 @@ void rrScheduler(Process process[], int processCount, int timeQuantum)
             if (p.burstTime <= timeQuantum) // If the process finishes within the time quantum
             {
                 currentTime += p.burstTime;                    // Update current time after the process finishes
-                p.endTime = currentTime;         // Set the end time for the process
+                p.endTime = currentTime;                       // Set the end time for the process
                 turnAroundTime += (p.endTime - p.arrivalTime); // Calculate turnaround time
                 processLeft--;                                 // Decrease the number of processes left to run
                 finishedProcesses[finishedCount++] = p;        // Store the finished process
@@ -356,8 +407,11 @@ void rrScheduler(Process process[], int processCount, int timeQuantum)
             {
                 p.burstTime -= timeQuantum; // Update remaining burst time
                 currentTime += timeQuantum; // Update current time after running for a quantum
+                currentTime--;
                 checkForProcessArrival(process, processCount, &currentProcessIndex, currentTime, q);
                 enqueue(q, p); // Add it back to the queue for further processing
+                currentTime++;
+                checkForProcessArrival(process, processCount, &currentProcessIndex, currentTime, q); // Check for new arrivals
             }
         }
     }
@@ -428,21 +482,16 @@ void Idle(int start, int end)
     alarm(burstTime);
     pause(); // Wait for a signal to be received
 
-    printf("%d → %d: Idle.\n", start, end);
+    char buffer[64];
+    int len = snprintf(buffer, sizeof(buffer), "%d → %d: Idle.\n", start, end);
+    write(1, buffer, len);
 }
 void printProcess(Process *process)
 {
-    printf("%d → %d: %s Running %s.\n", process->startTime, process->endTime, process->name, process->description);
-}
-void printProcesses(Process *processes, int processCount)
-{
-    for (int i = 0; i < processCount; i++)
-    {
-        printf("--------------------------------------------------\n");
-        printf("Process %d:\n", i + 1);
-        printProcess(&processes[i]);
-        printf("--------------------------------------------------\n");
-    }
+    char buffer[160]; // Make sure this is large enough for your message
+    int len = snprintf(buffer, sizeof(buffer), "%d → %d: %s Running %s.\n", process->startTime, process->endTime, process->name, process->description);
+    write(1, buffer, len);
+    // printf("%d → %d: %s Running %s.\n", process->startTime, process->endTime, process->name, process->description);
 }
 
 void runCPUScheduler(char *processesCsvFilePath, int timeQuantum)
@@ -451,15 +500,9 @@ void runCPUScheduler(char *processesCsvFilePath, int timeQuantum)
     int processCount = 0;
     initliazeAllProcesses(processes, &processCount, processesCsvFilePath);
     first_type_scheduler(processes, processCount, compareByArrivalTime, "FCFS");
-    // first_type_scheduler(processes, processCount, compareByBurstTime, "SJF");
-    // first_type_scheduler(processes, processCount, compareByPriority, "Priority");
+    first_type_scheduler(processes, processCount, compareByBurstTime, "SJF");
+    first_type_scheduler(processes, processCount, compareByPriority, "Priority");
+    rrScheduler(processes, processCount, timeQuantum);
+}
 
-    // rrScheduler(processes, processCount, timeQuantum);
-}
-int main()
-{
-    char processesCsvFilePath[] = "processes2.csv"; // Path to the CSV file containing process information
-    int timeQuantum = 20;                            // Time quantum for the Round Robin scheduler
-    runCPUScheduler(processesCsvFilePath, timeQuantum);
-}
 #endif

@@ -1,0 +1,71 @@
+🧪 ex3 Tester
+
+This is an automated testing script for ex3, a C project with two main modes: Focus-Mode and CPU-Scheduler.
+The script compiles the code, runs multiple test cases, compares the output to expected results, and reports the outcome.
+# note all c files you should provide by yourself
+📁 Project Structure:
+.
+├── ex3.c
+├── Focud-Mode.c
+├── CPU-Scheduler.c
+├── tester.sh
+├── test1/
+│   ├── input.txt
+│   ├── expected_output.txt
+│   └── output.txt (generated)
+├── test2/
+│   ├── input/
+│   │   ├── processes1.csv
+│   │   ├── ...
+│   ├── expected_output/
+│   │   ├── output1.txt
+│   │   ├── ...
+│   └── user/
+│       └── user_output{i}.txt (generated)
+├── logs/
+│   └── test1 / test2.{i} (generated)
+├── run_tests.sh
+
+🛠️ How to Run:
+
+chmod +x tester.sh
+./tester.sh
+
+✅ What It Does
+
+    Compiles ex3.c using gcc -o ex3 ex3.c
+
+    Runs:
+
+        ./ex3 Focus-Mode 3 4 < test1/input.txt > test1/output.txt
+
+        ./ex3 CPU-Scheduler test2/input/processes{i}.csv <time_quantum>
+
+    Compares each output with the corresponding expected output
+
+    Logs errors (if any) in the logs/ directory
+
+    If all tests pass, it:
+
+        Deletes logs/
+
+        Deletes test2/user/
+
+        Deletes test1/output.txt
+
+📝 Notes
+
+    All test input/output files are pre-prepared.
+
+    Logs are only kept if tests fail for debugging purposes.
+
+    If your code works fine on the shell but the output is full of duplicates with the tester check if you used printf() function instead write().
+    That can cause output issues when used ">" flag in Bash.
+
+🐧 Requirements
+
+    Bash shell
+
+    GCC compiler
+
+    Standard Unix tools: diff, mkdir, rm, etc.

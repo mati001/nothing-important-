@@ -11,6 +11,7 @@
 #define MAX_NAME_LENGTH 50
 #define MAX_DESCRIPTION_LENGTH 100
 #define MAX_LINE_LENGTH 256
+
 void Idle(int start, int end);
 typedef struct
 {
@@ -31,40 +32,109 @@ typedef struct
     int rear;
     int size;
 } queue;
-float calculateAverageWaitingTime(Process process[], int processCount, int start)
+typedef int (*ProcessCompareFn)(const Process *, const Process *);
+typedef struct
 {
-    float totalWaitingTime = 0;
-    for (int i = 0; i < processCount; i++)
-    {
-        if (process[i].endTime != -1) // Ensure the process has completed
-        {
-            int waitingTime = process[i].endTime - process[i].arrivalTime - process[i].burstTime;
-            totalWaitingTime += waitingTime;
-        }
-        else
-        {
-            fprintf(stderr, "Process %d has not completed yet (endTime = -1)\n", i);
-            return -1; // Return -1 to indicate an error if any process has not completed
-        }
-    }
-    return totalWaitingTime / processCount; // Return the average waiting time
+    Process data[MAX_PROCESSES]; // Array to hold the processes
+    int size;
+    ProcessCompareFn compare;
+} MinHeap;
+void rrScheduler(Process process[], int processCount, int timeQuantum);
+void printProcess(Process *process);
+void runCPUScheduler(char *processesCsvFilePath, int timeQuantum);
+void swap(Process *a, Process *b)
+{
+    Process temp = *a;
+    *a = *b;
+    *b = temp;
 }
 
+void initMinHeap(MinHeap *heap, int (*compare)(const Process *, const Process *))
+{
+    heap->size = 0;
+    heap->compare = compare;
+}
+void heapifyUp(MinHeap *heap, int index)
+{
+    if (index == 0)
+        return;
+    int parent = (index - 1) / 2;
+    if (heap->compare(&heap->data[index], &heap->data[parent]) < 0)
+    {
+        Process temp = heap->data[index];
+        heap->data[index] = heap->data[parent];
+        heap->data[parent] = temp;
+        heapifyUp(heap, parent);
+    }
+}
+void heapifyDown(MinHeap *heap, int index)
+{
+    int left = 2 * index + 1;
+    int right = 2 * index + 2;
+    int smallest = index;
+
+    if (left < heap->size && heap->compare(&heap->data[left], &heap->data[smallest]) < 0)
+        smallest = left;
+    if (right < heap->size && heap->compare(&heap->data[right], &heap->data[smallest]) < 0)
+        smallest = right;
+
+    if (smallest != index)
+    {
+        Process temp = heap->data[index];
+        heap->data[index] = heap->data[smallest];
+        heap->data[smallest] = temp;
+        heapifyDown(heap, smallest);
+    }
+}
+
+void insertProcess(MinHeap *heap, Process proc)
+{
+    heap->data[heap->size] = proc;
+    heapifyUp(heap, heap->size);
+    heap->size++;
+}
+Process removeMin(MinHeap *heap)
+{
+    if (heap->size == 0)
+    {
+        fprintf(stderr, "Heap is empty\n");
+        exit(EXIT_FAILURE);
+    }
+
+    Process min = heap->data[0];
+    heap->data[0] = heap->data[--heap->size];
+    heapifyDown(heap, 0);
+    return min;
+}
+int compareByPriority(const Process *a, const Process *b)
+{
+    return a->priority - b->priority;
+}
+
+int compareByBurstTime(const Process *a, const Process *b)
+{
+    return a->burstTime - b->burstTime;
+}
+int compareByArrivalTime(const Process *a, const Process *b)
+{
+    return a->arrivalTime - b->arrivalTime;
+}
 void printSchedulerHeader(const char *mode)
 {
     printf("══════════════════════════════════════════════\n");
     printf(">> Scheduler Mode : %s\n", mode);
     printf(">> Engine Status  : Initialized\n");
-    printf("──────────────────────────────────────────────\n");
+    printf("──────────────────────────────────────────────\n\n");
 }
 void printSchedulerSummary(float avgWaitingTime)
 {
+    printf("\n");
     printf("──────────────────────────────────────────────\n");
     printf(">> Engine Status  : Completed\n");
     printf(">> Summary        :\n");
     printf("   └─ Average Waiting Time : %.2f time units\n", avgWaitingTime);
     printf(">> End of Report\n");
-    printf("══════════════════════════════════════════════\n");
+    printf("══════════════════════════════════════════════\n\n");
 }
 queue *createQueue()
 {
@@ -74,7 +144,6 @@ queue *createQueue()
     q->size = 0;
     return q;
 }
-void printProcess(Process *process);
 void enqueue(queue *q, Process p)
 {
     if (q->size < MAX_PROCESSES)
@@ -97,24 +166,7 @@ Process dequeue(queue *q)
     return emptyProcess;
 }
 
-/*
 
-    Each line in the input CSV file represents a single process and follows this format:
-    Name,Description,Arrival Time,Burst Time,Priority
-    The fields are comma-separated and should appear in the specified order.
-    Arrival Time, Burst Time, and Priority are integers representing time in seconds.
-    Burst Time and Priority must be positive valuse.
-    The Name field will not exceed 50 characters, and the Description field will not exceed 100 characters.
-    You can assume that the file format is valid and correctly structured.
-    You may assume there will be no more than 1000 processes, and each row in the CSV file will contain no more than 256 characters.
-*/
-
-/*
-
-To simulate the execution time of each process, use the alarm system call with the process's burst time. This will pause the process for the specified duration, effectively mimicking actual CPU work.
-Use alarm similarly to simulate idle time when no processes are ready to run — representing the CPU waiting for the next arrival.
-
-*/
 void sortbyArrivalTime(Process *process, int processCount)
 {
     // Simple bubble sort to sort processes by arrival time
@@ -154,10 +206,6 @@ void runProcess(Process *p, int currentTime)
     p->endTime = currentTime + p->burstTime; // Set the end time of the process
     printProcess(p);
 }
-void rrScheduler(Process process[], int processCount, int timeQuantum);
-void fcfsScheduler(Process process[], int processCount);
-void sjfScheduler(Process process[], int processCount);
-void priorityScheduler(Process process[], int processCount);
 void processLine(char *line, Process *process)
 {
     char *token = strtok(line, ",");
@@ -232,18 +280,6 @@ void initliazeAllProcesses(Process *processes, int *count, char *processesCsvFil
     fclose(file);
 }
 
-void runCPUScheduler(char *processesCsvFilePath, int timeQuantum)
-{
-    Process processes[MAX_PROCESSES];
-    int processCount = 0;
-    initliazeAllProcesses(processes, &processCount, processesCsvFilePath);
-
-    fcfsScheduler(processes, processCount);
-    sjfScheduler(processes, processCount);
-    priorityScheduler(processes, processCount);
-    rrScheduler(processes, processCount, timeQuantum);
-}
-
 void rrScheduler(Process process[], int processCount, int timeQuantum)
 {
     /*
@@ -253,54 +289,54 @@ void rrScheduler(Process process[], int processCount, int timeQuantum)
        └─ Total Turnaround Time : 13 time units
     */
 }
-
-void fcfsScheduler(Process process[], int processCount)
+void first_type_scheduler(Process process[], int processCount, ProcessCompareFn compare, char *mode)
 {
-    printSchedulerHeader("FCFS");
-    queue *readyQueue = createQueue();
+    printSchedulerHeader(mode);
     sortbyArrivalTime(process, processCount); // Sort processes by arrival time before scheduling
-    int currentTime = 0;                      // Initialize current time to 0
-    int processLeft = processCount;           // Keep track of the number of processes left to run
-    for (int i = 0; i < processCount; i++)
+    MinHeap minHeap;
+    initMinHeap(&minHeap, compare); // Initialize the min heap with the burst time comparison function
+    int currentTime = 0;                       // Initialize current time to 0
+    int processLeft = processCount;            // Keep track of the number of processes left to run
+    int currentProcessIndex = 0; // Index to track the next process to be added to the min heap
+    float waitingTime = 0; // Variable to accumulate waiting time for average calculation
+    while (processLeft > 0)
     {
-        if (process[i].arrivalTime > currentTime)
+        while (currentProcessIndex < processCount && process[currentProcessIndex].arrivalTime <= currentTime)
         {
-            Idle(currentTime, process[i].arrivalTime);
-            currentTime = process[i].arrivalTime; // Update current time to the arrival time of the next process
+            // Add all processes that have arrived by the current time to the min heap
+            insertProcess(&minHeap, process[currentProcessIndex]);
+            currentProcessIndex++;
+        }        
+        if (minHeap.size == 0) // No processes are ready to run
+        {
+            Idle(currentTime, process[currentProcessIndex].arrivalTime); // Idle for 1 second
+            currentTime = process[currentProcessIndex].arrivalTime; // Update current time to the arrival time of the next process
+            continue;
         }
+
+        // Get the process with the shortest burst time from the min heap
+        Process p = removeMin(&minHeap);
         __pid_t pid = fork(); // Create a new process
         if (pid < 0)
         {
             perror("Fork failed");
             exit(EXIT_FAILURE);
         }
-        else if (pid == 0) // process pov
+        else if (pid == 0) // Child process
         {
-            // Set the process ID in the struct
-            process[i].pid = getpid();
-            // Run the process for its burst time
-            runProcess(&process[i], currentTime);
-            // Set the end time for the process
-            exit(0); // Exit child process after running
+            runProcess(&p, currentTime); // Run the process for its burst time
+            exit(0);                     // Exit child process after running
         }
-        else // schoudler pov
+        else // Scheduler pov
         {
-            wait(NULL); // Wait for the child process to finish
-            process[i].endTime = currentTime + process[i].burstTime;
-            currentTime += process[i].burstTime; // Update current time after the process finishes
+            wait(NULL);                            // Wait for the child process to finish
+            p.endTime = currentTime + p.burstTime; // Set the end time for the process
+            processLeft--;                         // Decrease the number of processes left to run
+            currentTime += p.burstTime;            // Update current time after the process finishes
+            waitingTime += (currentTime - p.arrivalTime - p.burstTime); // Calculate waiting time
         }
     }
-    float avg = calculateAverageWaitingTime(process, processCount, 0);
-    printSchedulerSummary(avg);
-}
-void sjfScheduler(Process process[], int processCount)
-{
-    /*
-        need to sort the process by burst time
-        need to keep track of the remaining burst time for each process (allready in the struct, just need to update it)
-        need to keep track on the arrival of new processes ->linked list after the first sort? min heap?
-        need to keep track of     Average Waiting Time
-    */
+    printSchedulerSummary(waitingTime / processCount); // Print the average waiting time
 }
 
 void priorityScheduler(Process process[], int processCount)
@@ -315,7 +351,6 @@ void priorityScheduler(Process process[], int processCount)
     */
 }
 
-// TODO: impliment a sorting method to sort the processes by arrival time
 // TODO: impliment a sorting method to sort the processes by burst time, need to be stable
 // TODO: impliment a sorting method to sort the processes by priority, need to be stable
 
@@ -354,4 +389,17 @@ int main()
     char processesCsvFilePath[] = "processes1.csv"; // Path to the CSV file containing process information
     int timeQuantum = 2;                            // Time quantum for the Round Robin scheduler
     runCPUScheduler(processesCsvFilePath, timeQuantum);
+}
+
+void runCPUScheduler(char *processesCsvFilePath, int timeQuantum)
+{
+    Process processes[MAX_PROCESSES];
+    int processCount = 0;
+    initliazeAllProcesses(processes, &processCount, processesCsvFilePath);
+
+    first_type_scheduler(processes, processCount, compareByArrivalTime, "FCFS");
+    first_type_scheduler(processes, processCount, compareByBurstTime, "SJF");
+    first_type_scheduler(processes, processCount, compareByPriority, "Priority");
+    
+    rrScheduler(processes, processCount, timeQuantum);
 }

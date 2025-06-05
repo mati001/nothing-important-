@@ -4,6 +4,9 @@
 #include "Focus-Mode.c"
 #include "CPU-Scheduler.c"
 
+
+sigset_t blockSet;
+
 int main(int argc, char *argv[]) {
     if (argc != 4) {
         printf("Usage: %s <Focus-Mode/CPU-Schedule> <Num-Of-Rounds/Processes.csv> <Round-Duration/Time-Quantum>",

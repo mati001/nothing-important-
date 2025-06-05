@@ -1,3 +1,5 @@
+#ifndef CPU_SCHEDULER_C
+#define CPU_SCHEDULER_C
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
@@ -126,6 +128,16 @@ void printSchedulerHeader(const char *mode)
     printf(">> Engine Status  : Initialized\n");
     printf("──────────────────────────────────────────────\n\n");
 }
+void printSchedulerSummaryRR(int turnAroundTime)
+{
+    printf("\n");
+    printf("──────────────────────────────────────────────\n");
+    printf(">> Engine Status  : Completed\n");
+    printf(">> Summary        :\n");
+    printf("   └─ Total Turnaround Time : %d time units\n\n", turnAroundTime);
+    printf(">> End of Report\n");
+    printf("══════════════════════════════════════════════\n\n");
+}
 void printSchedulerSummary(float avgWaitingTime)
 {
     printf("\n");
@@ -166,7 +178,6 @@ Process dequeue(queue *q)
     return emptyProcess;
 }
 
-
 void sortbyArrivalTime(Process *process, int processCount)
 {
     // Simple bubble sort to sort processes by arrival time
@@ -187,7 +198,7 @@ void signal_handler_process(int signum)
 {
     // do nothing
 }
-void runProcess(Process *p, int currentTime)
+void runProcess(Process *p, int currentTime, int timeQuantum)
 {
     // Register signal handler for SIGALRM
     signal(SIGALRM, signal_handler_process);
@@ -198,12 +209,12 @@ void runProcess(Process *p, int currentTime)
 
     sigaction(SIGALRM, &sa, NULL);
     // Set an alarm for the specified time (in seconds)
-    alarm(p->burstTime);
+    alarm(timeQuantum);
 
     // Simulate process execution
-    p->startTime = currentTime;              // Set the start time of the process
-    pause();                                 // Wait for a signal to be received
-    p->endTime = currentTime + p->burstTime; // Set the end time of the process
+    p->startTime = currentTime;             // Set the start time of the process
+    pause();                                // Wait for a signal to be received
+    p->endTime = currentTime + timeQuantum; // Set the end time of the process
     printProcess(p);
 }
 void processLine(char *line, Process *process)
@@ -263,6 +274,10 @@ void initliazeAllProcesses(Process *processes, int *count, char *processesCsvFil
         {
             break; // End of file reached
         }
+        if (line[0] == '\n' || line[0] == '#')
+        {
+            continue; // Skip empty lines or comments
+        }
         char *lineCopy = strdup(line); // Make a separate copy
         if (!lineCopy)
         {
@@ -279,15 +294,75 @@ void initliazeAllProcesses(Process *processes, int *count, char *processesCsvFil
         free(line); // Free the line buffer
     fclose(file);
 }
-
+void checkForProcessArrival(Process process[], int processCount, int *currentProcessIndex, int currentTime, queue *q)
+{
+    while (*currentProcessIndex < processCount && process[*currentProcessIndex].arrivalTime <= currentTime)
+    {
+        enqueue(q, process[*currentProcessIndex]);
+        // printf("\nProcess %s entered the RR!\n", process[*currentProcessIndex].name);
+        (*currentProcessIndex)++;
+    }
+}
 void rrScheduler(Process process[], int processCount, int timeQuantum)
 {
-    /*
-    need a ready queue
-    after every second need to update the ready queue
-    need to keep track of the remaining burst time for each process (allready in the struct, just need to update it)
-       └─ Total Turnaround Time : 13 time units
-    */
+    sortbyArrivalTime(process, processCount); // Sort processes by arrival time before scheduling
+    printSchedulerHeader("Round Robin");
+    queue *q = createQueue();                 // Create a queue to hold the processes
+    int currentTime = 0;                      // Initialize current time to 0
+    int processLeft = processCount;           // Keep track of the number of processes left to run
+    int currentProcessIndex = 0;              // Index to track the next process to be added to the queue
+    int turnAroundTime = 0;                   // Variable to accumulate turnaround time for average calculation
+    Process finishedProcesses[MAX_PROCESSES]; // Array to hold finished processes
+    int finishedCount = 0;                    // Count of finished processes
+
+    while (processLeft > 0)
+    {
+        checkForProcessArrival(process, processCount, &currentProcessIndex, currentTime, q); // Check for processes that have arrived
+
+        if (q->size == 0) // No processes are ready to run
+        {
+            Idle(currentTime, process[currentProcessIndex].arrivalTime); // Idle until the next process arrives
+            currentTime = process[currentProcessIndex].arrivalTime;      // Update current time to the arrival time of the next process
+            continue;
+        }
+        // Get the first process in the queue
+        Process p = dequeue(q);
+        __pid_t pid = fork(); // Create a new process
+        if (pid < 0)
+        {
+            perror("Fork failed");
+            exit(EXIT_FAILURE);
+        }
+        else if (pid == 0) // process pov
+        {
+            if (p.burstTime < timeQuantum)
+                runProcess(&p, currentTime, p.burstTime); // Run the process for its burst time
+            else
+                runProcess(&p, currentTime, timeQuantum); // Run the process for time quantum
+            exit(0);                                      // Exit child process after running
+        }
+        else // Scheduler pov
+        {
+            wait(NULL);                     // Wait for the child process to finish
+            if (p.burstTime <= timeQuantum) // If the process finishes within the time quantum
+            {
+                currentTime += p.burstTime;                    // Update current time after the process finishes
+                p.endTime = currentTime;         // Set the end time for the process
+                turnAroundTime += (p.endTime - p.arrivalTime); // Calculate turnaround time
+                processLeft--;                                 // Decrease the number of processes left to run
+                finishedProcesses[finishedCount++] = p;        // Store the finished process
+            }
+            else // If the process does not finish within the time quantum
+            {
+                p.burstTime -= timeQuantum; // Update remaining burst time
+                currentTime += timeQuantum; // Update current time after running for a quantum
+                checkForProcessArrival(process, processCount, &currentProcessIndex, currentTime, q);
+                enqueue(q, p); // Add it back to the queue for further processing
+            }
+        }
+    }
+    // Print the summary of finished processes
+    printSchedulerSummaryRR(currentTime);
 }
 void first_type_scheduler(Process process[], int processCount, ProcessCompareFn compare, char *mode)
 {
@@ -295,10 +370,10 @@ void first_type_scheduler(Process process[], int processCount, ProcessCompareFn 
     sortbyArrivalTime(process, processCount); // Sort processes by arrival time before scheduling
     MinHeap minHeap;
     initMinHeap(&minHeap, compare); // Initialize the min heap with the burst time comparison function
-    int currentTime = 0;                       // Initialize current time to 0
-    int processLeft = processCount;            // Keep track of the number of processes left to run
-    int currentProcessIndex = 0; // Index to track the next process to be added to the min heap
-    float waitingTime = 0; // Variable to accumulate waiting time for average calculation
+    int currentTime = 0;            // Initialize current time to 0
+    int processLeft = processCount; // Keep track of the number of processes left to run
+    int currentProcessIndex = 0;    // Index to track the next process to be added to the min heap
+    float waitingTime = 0;          // Variable to accumulate waiting time for average calculation
     while (processLeft > 0)
     {
         while (currentProcessIndex < processCount && process[currentProcessIndex].arrivalTime <= currentTime)
@@ -306,11 +381,11 @@ void first_type_scheduler(Process process[], int processCount, ProcessCompareFn 
             // Add all processes that have arrived by the current time to the min heap
             insertProcess(&minHeap, process[currentProcessIndex]);
             currentProcessIndex++;
-        }        
+        }
         if (minHeap.size == 0) // No processes are ready to run
         {
             Idle(currentTime, process[currentProcessIndex].arrivalTime); // Idle for 1 second
-            currentTime = process[currentProcessIndex].arrivalTime; // Update current time to the arrival time of the next process
+            currentTime = process[currentProcessIndex].arrivalTime;      // Update current time to the arrival time of the next process
             continue;
         }
 
@@ -324,35 +399,20 @@ void first_type_scheduler(Process process[], int processCount, ProcessCompareFn 
         }
         else if (pid == 0) // Child process
         {
-            runProcess(&p, currentTime); // Run the process for its burst time
-            exit(0);                     // Exit child process after running
+            runProcess(&p, currentTime, p.burstTime); // Run the process for its burst time
+            exit(0);                                  // Exit child process after running
         }
         else // Scheduler pov
         {
-            wait(NULL);                            // Wait for the child process to finish
-            p.endTime = currentTime + p.burstTime; // Set the end time for the process
-            processLeft--;                         // Decrease the number of processes left to run
-            currentTime += p.burstTime;            // Update current time after the process finishes
+            wait(NULL);                                                 // Wait for the child process to finish
+            p.endTime = currentTime + p.burstTime;                      // Set the end time for the process
+            processLeft--;                                              // Decrease the number of processes left to run
+            currentTime += p.burstTime;                                 // Update current time after the process finishes
             waitingTime += (currentTime - p.arrivalTime - p.burstTime); // Calculate waiting time
         }
     }
     printSchedulerSummary(waitingTime / processCount); // Print the average waiting time
 }
-
-void priorityScheduler(Process process[], int processCount)
-{
-    /*
-    need to have a min heap to hold the processes in the order of their priority
-    every time
-    need to sort the process by priority
-    need to keep track of the remaining burst time for each process (allready in the struct, just need to update it)
-    need to keep track on the arrival of new processes ->linked list after the first sort? min heap?
-    need to keep track of        └─ Average Waiting Time : 2.00 time units
-    */
-}
-
-// TODO: impliment a sorting method to sort the processes by burst time, need to be stable
-// TODO: impliment a sorting method to sort the processes by priority, need to be stable
 
 void Idle(int start, int end)
 {
@@ -384,22 +444,22 @@ void printProcesses(Process *processes, int processCount)
         printf("--------------------------------------------------\n");
     }
 }
-int main()
-{
-    char processesCsvFilePath[] = "processes1.csv"; // Path to the CSV file containing process information
-    int timeQuantum = 2;                            // Time quantum for the Round Robin scheduler
-    runCPUScheduler(processesCsvFilePath, timeQuantum);
-}
 
 void runCPUScheduler(char *processesCsvFilePath, int timeQuantum)
 {
     Process processes[MAX_PROCESSES];
     int processCount = 0;
     initliazeAllProcesses(processes, &processCount, processesCsvFilePath);
-
     first_type_scheduler(processes, processCount, compareByArrivalTime, "FCFS");
-    first_type_scheduler(processes, processCount, compareByBurstTime, "SJF");
-    first_type_scheduler(processes, processCount, compareByPriority, "Priority");
-    
-    rrScheduler(processes, processCount, timeQuantum);
+    // first_type_scheduler(processes, processCount, compareByBurstTime, "SJF");
+    // first_type_scheduler(processes, processCount, compareByPriority, "Priority");
+
+    // rrScheduler(processes, processCount, timeQuantum);
 }
+int main()
+{
+    char processesCsvFilePath[] = "processes2.csv"; // Path to the CSV file containing process information
+    int timeQuantum = 20;                            // Time quantum for the Round Robin scheduler
+    runCPUScheduler(processesCsvFilePath, timeQuantum);
+}
+#endif

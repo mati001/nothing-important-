@@ -7,8 +7,9 @@
 // * Signal blocking/unblocking (`sigprocmask`)
 // * Handling pending signals (`sigpending`, `sigismember`)
 
-sigset_t blockSet;
-void handle_signal(int sig)
+extern sigset_t blockSet;
+
+void handle_signal_FM(int sig)
 {
     switch (sig)
     {
@@ -73,7 +74,7 @@ void register_handlers()
 {
     struct sigaction sa;
     memset(&sa, 0, sizeof(sa));
-    sa.sa_handler = handle_signal;
+    sa.sa_handler = handle_signal_FM;
     sigaction(SIGINT, &sa, NULL);
     sigaction(SIGFPE, &sa, NULL);
     sigaction(SIGBUS, &sa, NULL);

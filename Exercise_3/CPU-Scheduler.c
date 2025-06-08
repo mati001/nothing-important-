@@ -161,7 +161,7 @@ void printSchedulerSummaryRR(int turnAroundTime)
     const char *statusLine = ">> Engine Status  : Completed\n";
     const char *summaryHeader = ">> Summary        :\n";
     const char *reportEnd = ">> End of Report\n";
-    const char *separatorBottom = "══════════════════════════════════════════════\n";
+    const char *separatorBottom = "══════════════════════════════════════════════\n\n";
 
     write(1, lineBreak, strlen(lineBreak));
     write(1, separatorTop, strlen(separatorTop));
@@ -346,12 +346,22 @@ void initliazeAllProcesses(Process *processes, int *count, char *processesCsvFil
         free(line); // Free the line buffer
     fclose(file);
 }
-void checkForProcessArrival(Process process[], int processCount, int *currentProcessIndex, int currentTime, queue *q)
+void checkForProcessArrival(Process process[], int processCount, int *currentProcessIndex, int currentTime, queue *q, Process p, bool addP)
 {
+    MinHeap minHeap;
+
+    initMinHeap(&minHeap, compareByArrivalTime); // Initialize the min heap with the arrival time comparison function
+    if (addP)
+        insertProcess(&minHeap, p); // Insert the current process into the min heap
     while (*currentProcessIndex < processCount && process[*currentProcessIndex].arrivalTime <= currentTime)
     {
-        enqueue(q, process[*currentProcessIndex]);
+        insertProcess(&minHeap, process[*currentProcessIndex]); // Add all processes that have arrived by the current time to the min heap
         (*currentProcessIndex)++;
+    }
+    while (minHeap.size > 0)
+    {
+        Process temp = removeMin(&minHeap); // Get the process with the earliest arrival time
+        enqueue(q, temp);                   // Enqueue it to the queue
     }
 }
 void rrScheduler(Process process[], int processCount, int timeQuantum)
@@ -365,11 +375,14 @@ void rrScheduler(Process process[], int processCount, int timeQuantum)
     int turnAroundTime = 0;                   // Variable to accumulate turnaround time for average calculation
     Process finishedProcesses[MAX_PROCESSES]; // Array to hold finished processes
     int finishedCount = 0;                    // Count of finished processes
-
+    if (process[0].arrivalTime > 0)
+    {
+        Idle(currentTime, process[0].arrivalTime); // Idle until the first process arrives
+        currentTime = process[0].arrivalTime;      // Update current time to the arrival time of the first process
+    }    
     while (processLeft > 0)
     {
-        checkForProcessArrival(process, processCount, &currentProcessIndex, currentTime, q); // Check for processes that have arrived
-
+        checkForProcessArrival(process, processCount, &currentProcessIndex, currentTime, q, process[currentProcessIndex], false); 
         if (q->size == 0) // No processes are ready to run
         {
             Idle(currentTime, process[currentProcessIndex].arrivalTime); // Idle until the next process arrives
@@ -407,11 +420,8 @@ void rrScheduler(Process process[], int processCount, int timeQuantum)
             {
                 p.burstTime -= timeQuantum; // Update remaining burst time
                 currentTime += timeQuantum; // Update current time after running for a quantum
-                currentTime--;
-                checkForProcessArrival(process, processCount, &currentProcessIndex, currentTime, q);
-                enqueue(q, p); // Add it back to the queue for further processing
-                currentTime++;
-                checkForProcessArrival(process, processCount, &currentProcessIndex, currentTime, q); // Check for new arrivals
+                p.arrivalTime = currentTime; // Update arrival time for the next round
+                checkForProcessArrival(process, processCount, &currentProcessIndex, currentTime, q, p, true); // Check for new arrivals
             }
         }
     }
